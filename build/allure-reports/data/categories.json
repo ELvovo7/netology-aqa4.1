@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element should be hidden {[data-test-id=success-notification]}\nElement: '<div class=\"notification notification_visible notification_status_ok notification_has-closer notification_stick-to_right notification_theme_alfa-on-white\" data-test-id=\"success-notification\">Успешно!\nВстреча успешно запланирована на 26.01.2020</div>'\nScreenshot: file:/D:/QA/IdeaProjects/netology-aqa41/build/reports/tests/1579781278352.0.png\nPage source: file:/D:/QA/IdeaProjects/netology-aqa41/build/reports/tests/1579781278352.0.html\nTimeout: 3 s.",
+      "children" : [ {
+        "name" : "Валидные данные. Ожидаем сообщение 'Успешно'",
+        "uid" : "1ec9815ad3e8a222",
+        "parentUid" : "de3b3eebd6d3fc86b82c2521ae252bed",
+        "status" : "failed",
+        "time" : {
+          "start" : 1579781262554,
+          "stop" : 1579781278690,
+          "duration" : 16136
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "de3b3eebd6d3fc86b82c2521ae252bed"
+    }, {
+      "name" : "Element should have css class 'input_invalid' {[data-test-id=phone]}\nElement: '<span class=\"input input_type_tel input_view_default input_size_m input_width_available input_has-label input_has-value input_theme_alfa-on-white phone-input phone-input_theme_alfa-on-white\" data-test-id=\"phone\">Мобильный телефон\nНа указанный номер моб. тел. будет отправлен смс-код для подтверждения заявки на карту. Проверьте, что номер ваш и введен корректно.</span>'\nScreenshot: file:/D:/QA/IdeaProjects/netology-aqa41/build/reports/tests/1579781283948.1.png\nPage source: file:/D:/QA/IdeaProjects/netology-aqa41/build/reports/tests/1579781283948.1.html\nTimeout: 4 s.",
+      "children" : [ {
+        "name" : "Невалидный телефон. Не должно быть сообщения 'Успешно'",
+        "uid" : "bc6994574b62ffb8",
+        "parentUid" : "addc22d9113284eb8d455439d8982855",
+        "status" : "failed",
+        "time" : {
+          "start" : 1579781278795,
+          "stop" : 1579781284324,
+          "duration" : 5529
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "addc22d9113284eb8d455439d8982855"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

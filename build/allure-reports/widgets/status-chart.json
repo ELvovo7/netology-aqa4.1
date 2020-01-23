@@ -1,0 +1,41 @@
+[ {
+  "uid" : "bc6994574b62ffb8",
+  "name" : "Невалидный телефон. Не должно быть сообщения 'Успешно'",
+  "time" : {
+    "start" : 1579781278795,
+    "stop" : 1579781284324,
+    "duration" : 5529
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e23957fe7fe1322d",
+  "name" : "Невалидные имя-фамилия. Ожидаем ошибку.",
+  "time" : {
+    "start" : 1579781285519,
+    "stop" : 1579781286499,
+    "duration" : 980
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "216b3d40d17612a2",
+  "name" : "Валидные данные. Перепланируем, меняя дату.",
+  "time" : {
+    "start" : 1579781284337,
+    "stop" : 1579781285514,
+    "duration" : 1177
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1ec9815ad3e8a222",
+  "name" : "Валидные данные. Ожидаем сообщение 'Успешно'",
+  "time" : {
+    "start" : 1579781262554,
+    "stop" : 1579781278690,
+    "duration" : 16136
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

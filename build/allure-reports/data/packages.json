@@ -1,0 +1,61 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "netology41.DeliveryDateChangingTest",
+    "children" : [ {
+      "name" : "inputValidDataExpectSuccess",
+      "uid" : "1ec9815ad3e8a222",
+      "parentUid" : "5d643cf7d1838e09da0dcf6014207f7f",
+      "status" : "failed",
+      "time" : {
+        "start" : 1579781262554,
+        "stop" : 1579781278690,
+        "duration" : 16136
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "shouldBeErrorIfPhoneIsInvalid",
+      "uid" : "bc6994574b62ffb8",
+      "parentUid" : "5d643cf7d1838e09da0dcf6014207f7f",
+      "status" : "failed",
+      "time" : {
+        "start" : 1579781278795,
+        "stop" : 1579781284324,
+        "duration" : 5529
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "replacedIfDateWasChanged",
+      "uid" : "216b3d40d17612a2",
+      "parentUid" : "5d643cf7d1838e09da0dcf6014207f7f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579781284337,
+        "stop" : 1579781285514,
+        "duration" : 1177
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "shouldBeErrorIfNameIsInvalid",
+      "uid" : "e23957fe7fe1322d",
+      "parentUid" : "5d643cf7d1838e09da0dcf6014207f7f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579781285519,
+        "stop" : 1579781286499,
+        "duration" : 980
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "netology41.DeliveryDateChangingTest"
+  } ]
+}

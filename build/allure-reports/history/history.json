@@ -1,0 +1,80 @@
+{
+  "2e8ee72814941b6acb75818037d0a84d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "216b3d40d17612a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579781284337,
+        "stop" : 1579781285514,
+        "duration" : 1177
+      }
+    } ]
+  },
+  "4a2f0cfc4ecb1b3b8cae8e49f2312292" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bc6994574b62ffb8",
+      "status" : "failed",
+      "statusDetails" : "Element should have css class 'input_invalid' {[data-test-id=phone]}\nElement: '<span class=\"input input_type_tel input_view_default input_size_m input_width_available input_has-label input_has-value input_theme_alfa-on-white phone-input phone-input_theme_alfa-on-white\" data-test-id=\"phone\">Мобильный телефон\nНа указанный номер моб. тел. будет отправлен смс-код для подтверждения заявки на карту. Проверьте, что номер ваш и введен корректно.</span>'\nScreenshot: file:/D:/QA/IdeaProjects/netology-aqa41/build/reports/tests/1579781283948.1.png\nPage source: file:/D:/QA/IdeaProjects/netology-aqa41/build/reports/tests/1579781283948.1.html\nTimeout: 4 s.",
+      "time" : {
+        "start" : 1579781278795,
+        "stop" : 1579781284324,
+        "duration" : 5529
+      }
+    } ]
+  },
+  "92564ac53910a3f6bd817787d5b55ca2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e23957fe7fe1322d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579781285519,
+        "stop" : 1579781286499,
+        "duration" : 980
+      }
+    } ]
+  },
+  "3ee0e77af3c1a6c48526ddcc5677ada4" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1ec9815ad3e8a222",
+      "status" : "failed",
+      "statusDetails" : "Element should be hidden {[data-test-id=success-notification]}\nElement: '<div class=\"notification notification_visible notification_status_ok notification_has-closer notification_stick-to_right notification_theme_alfa-on-white\" data-test-id=\"success-notification\">Успешно!\nВстреча успешно запланирована на 26.01.2020</div>'\nScreenshot: file:/D:/QA/IdeaProjects/netology-aqa41/build/reports/tests/1579781278352.0.png\nPage source: file:/D:/QA/IdeaProjects/netology-aqa41/build/reports/tests/1579781278352.0.html\nTimeout: 3 s.",
+      "time" : {
+        "start" : 1579781262554,
+        "stop" : 1579781278690,
+        "duration" : 16136
+      }
+    } ]
+  }
+}

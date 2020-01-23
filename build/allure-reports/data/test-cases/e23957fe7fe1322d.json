@@ -1,0 +1,57 @@
+{
+  "uid" : "e23957fe7fe1322d",
+  "name" : "Невалидные имя-фамилия. Ожидаем ошибку.",
+  "fullName" : "netology41.DeliveryDateChangingTest.shouldBeErrorIfNameIsInvalid",
+  "historyId" : "92564ac53910a3f6bd817787d5b55ca2",
+  "time" : {
+    "start" : 1579781285519,
+    "stop" : 1579781286499,
+    "duration" : 980
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "VLADIMIR"
+  }, {
+    "name" : "thread",
+    "value" : "18540@VLADIMIR.Test worker(14)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "netology41.DeliveryDateChangingTest"
+  }, {
+    "name" : "testClass",
+    "value" : "netology41.DeliveryDateChangingTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldBeErrorIfNameIsInvalid"
+  }, {
+    "name" : "suite",
+    "value" : "netology41.DeliveryDateChangingTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e23957fe7fe1322d.json",
+  "parameterValues" : [ ]
+}
