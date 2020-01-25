@@ -4,39 +4,56 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Element should be hidden {[data-test-id=success-notification]}\nElement: '<div class=\"notification notification_visible notification_status_ok notification_has-closer notification_stick-to_right notification_theme_alfa-on-white\" data-test-id=\"success-notification\">Успешно!\nВстреча успешно запланирована на 26.01.2020</div>'\nScreenshot: file:/D:/QA/IdeaProjects/netology-aqa41/build/reports/tests/1579781278352.0.png\nPage source: file:/D:/QA/IdeaProjects/netology-aqa41/build/reports/tests/1579781278352.0.html\nTimeout: 3 s.",
+      "name" : "Element should be hidden {[data-test-id=success-notification]}\nElement: '<div class=\"notification notification_visible notification_status_ok notification_has-closer notification_stick-to_right notification_theme_alfa-on-white\" data-test-id=\"success-notification\">Успешно!\nВстреча успешно запланирована на 28.01.2020</div>'\nScreenshot: file:/D:/QA/IdeaProjects/netology-aqa41/build/reports/tests/1579964268736.0.png\nPage source: file:/D:/QA/IdeaProjects/netology-aqa41/build/reports/tests/1579964268736.0.html\nTimeout: 3 s.",
       "children" : [ {
         "name" : "Валидные данные. Ожидаем сообщение 'Успешно'",
-        "uid" : "1ec9815ad3e8a222",
-        "parentUid" : "de3b3eebd6d3fc86b82c2521ae252bed",
+        "uid" : "ebeea7263619e311",
+        "parentUid" : "45c8c106a1c53e0857454bd93090a76a",
         "status" : "failed",
         "time" : {
-          "start" : 1579781262554,
-          "stop" : 1579781278690,
-          "duration" : 16136
+          "start" : 1579964253628,
+          "stop" : 1579964269343,
+          "duration" : 15715
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "de3b3eebd6d3fc86b82c2521ae252bed"
+      "uid" : "45c8c106a1c53e0857454bd93090a76a"
     }, {
-      "name" : "Element should have css class 'input_invalid' {[data-test-id=phone]}\nElement: '<span class=\"input input_type_tel input_view_default input_size_m input_width_available input_has-label input_has-value input_theme_alfa-on-white phone-input phone-input_theme_alfa-on-white\" data-test-id=\"phone\">Мобильный телефон\nНа указанный номер моб. тел. будет отправлен смс-код для подтверждения заявки на карту. Проверьте, что номер ваш и введен корректно.</span>'\nScreenshot: file:/D:/QA/IdeaProjects/netology-aqa41/build/reports/tests/1579781283948.1.png\nPage source: file:/D:/QA/IdeaProjects/netology-aqa41/build/reports/tests/1579781283948.1.html\nTimeout: 4 s.",
+      "name" : "Element should have css class 'input_invalid' {[data-test-id=phone]}\nElement: '<span class=\"input input_type_tel input_view_default input_size_m input_width_available input_has-label input_has-value input_theme_alfa-on-white phone-input phone-input_theme_alfa-on-white\" data-test-id=\"phone\">Мобильный телефон\nНа указанный номер моб. тел. будет отправлен смс-код для подтверждения заявки на карту. Проверьте, что номер ваш и введен корректно.</span>'\nScreenshot: file:/D:/QA/IdeaProjects/netology-aqa41/build/reports/tests/1579964274566.1.png\nPage source: file:/D:/QA/IdeaProjects/netology-aqa41/build/reports/tests/1579964274566.1.html\nTimeout: 4 s.",
       "children" : [ {
         "name" : "Невалидный телефон. Не должно быть сообщения 'Успешно'",
-        "uid" : "bc6994574b62ffb8",
-        "parentUid" : "addc22d9113284eb8d455439d8982855",
+        "uid" : "907485c00f721e82",
+        "parentUid" : "fa1e77f5e680ac1288a20b818bb9ed1c",
         "status" : "failed",
         "time" : {
-          "start" : 1579781278795,
-          "stop" : 1579781284324,
-          "duration" : 5529
+          "start" : 1579964269481,
+          "stop" : 1579964275182,
+          "duration" : 5701
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "addc22d9113284eb8d455439d8982855"
+      "uid" : "fa1e77f5e680ac1288a20b818bb9ed1c"
+    }, {
+      "name" : "Element should be hidden {[data-test-id=success-notification]}\nElement: '<div class=\"notification notification_visible notification_status_ok notification_has-closer notification_stick-to_right notification_theme_alfa-on-white\" data-test-id=\"success-notification\">Успешно!\nВстреча успешно запланирована на 28.01.2020</div>'\nScreenshot: file:/D:/QA/IdeaProjects/netology-aqa41/build/reports/tests/1579964279327.2.png\nPage source: file:/D:/QA/IdeaProjects/netology-aqa41/build/reports/tests/1579964279327.2.html\nTimeout: 3 s.",
+      "children" : [ {
+        "name" : "Валидные данные. Перепланируем, меняя дату.",
+        "uid" : "7d45327e20afd88",
+        "parentUid" : "52f7f47a945598a5e25804276ee7b571",
+        "status" : "failed",
+        "time" : {
+          "start" : 1579964275239,
+          "stop" : 1579964279930,
+          "duration" : 4691
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "52f7f47a945598a5e25804276ee7b571"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]

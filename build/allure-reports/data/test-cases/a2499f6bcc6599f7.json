@@ -1,0 +1,173 @@
+{
+  "uid" : "a2499f6bcc6599f7",
+  "name" : "Невалидные имя-фамилия. Ожидаем ошибку.",
+  "fullName" : "netology41.DeliveryDateChangingTest.shouldBeErrorIfNameIsInvalid",
+  "historyId" : "92564ac53910a3f6bd817787d5b55ca2",
+  "time" : {
+    "start" : 1579964279935,
+    "stop" : 1579964280827,
+    "duration" : 892
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(open) http://localhost:9999",
+      "time" : {
+        "start" : 1579964279936,
+        "stop" : 1579964280095,
+        "duration" : 159
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$([data-test-id=city] input) set value(Краснодар)",
+      "time" : {
+        "start" : 1579964280125,
+        "stop" : 1579964280308,
+        "duration" : 183
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$([data-test-id=name] input) set value(Edward Feil)",
+      "time" : {
+        "start" : 1579964280308,
+        "stop" : 1579964280459,
+        "duration" : 151
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$([data-test-id=phone] input) set value(034.760.0493 x883)",
+      "time" : {
+        "start" : 1579964280459,
+        "stop" : 1579964280617,
+        "duration" : 158
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$([data-test-id=agreement]) click()",
+      "time" : {
+        "start" : 1579964280617,
+        "stop" : 1579964280685,
+        "duration" : 68
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(.button.findBy(exact text 'Запланировать')) click()",
+      "time" : {
+        "start" : 1579964280686,
+        "stop" : 1579964280782,
+        "duration" : 96
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$([data-test-id=name].findBy(text 'Имя и Фамилия указаные неверно. Допустимы только русские буквы, пробелы и дефисы.')) wait until([visible, 3000])",
+      "time" : {
+        "start" : 1579964280782,
+        "stop" : 1579964280826,
+        "duration" : 44
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 7,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "VLADIMIR"
+  }, {
+    "name" : "thread",
+    "value" : "17252@VLADIMIR.Test worker(14)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "netology41.DeliveryDateChangingTest"
+  }, {
+    "name" : "testClass",
+    "value" : "netology41.DeliveryDateChangingTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldBeErrorIfNameIsInvalid"
+  }, {
+    "name" : "suite",
+    "value" : "netology41.DeliveryDateChangingTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a2499f6bcc6599f7.json",
+  "parameterValues" : [ ]
+}

@@ -4,10 +4,10 @@
     "uid" : "bdc283bd4a07fa9d9b7f0073060cd264",
     "name" : "netology41.DeliveryDateChangingTest",
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 4
     }

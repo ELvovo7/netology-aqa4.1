@@ -1,20 +1,21 @@
 {
   "2e8ee72814941b6acb75818037d0a84d" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "216b3d40d17612a2",
-      "status" : "passed",
+      "uid" : "7d45327e20afd88",
+      "status" : "failed",
+      "statusDetails" : "Element should be hidden {[data-test-id=success-notification]}\nElement: '<div class=\"notification notification_visible notification_status_ok notification_has-closer notification_stick-to_right notification_theme_alfa-on-white\" data-test-id=\"success-notification\">Успешно!\nВстреча успешно запланирована на 28.01.2020</div>'\nScreenshot: file:/D:/QA/IdeaProjects/netology-aqa41/build/reports/tests/1579964279327.2.png\nPage source: file:/D:/QA/IdeaProjects/netology-aqa41/build/reports/tests/1579964279327.2.html\nTimeout: 3 s.",
       "time" : {
-        "start" : 1579781284337,
-        "stop" : 1579781285514,
-        "duration" : 1177
+        "start" : 1579964275239,
+        "stop" : 1579964279930,
+        "duration" : 4691
       }
     } ]
   },
@@ -28,13 +29,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "bc6994574b62ffb8",
+      "uid" : "907485c00f721e82",
       "status" : "failed",
-      "statusDetails" : "Element should have css class 'input_invalid' {[data-test-id=phone]}\nElement: '<span class=\"input input_type_tel input_view_default input_size_m input_width_available input_has-label input_has-value input_theme_alfa-on-white phone-input phone-input_theme_alfa-on-white\" data-test-id=\"phone\">Мобильный телефон\nНа указанный номер моб. тел. будет отправлен смс-код для подтверждения заявки на карту. Проверьте, что номер ваш и введен корректно.</span>'\nScreenshot: file:/D:/QA/IdeaProjects/netology-aqa41/build/reports/tests/1579781283948.1.png\nPage source: file:/D:/QA/IdeaProjects/netology-aqa41/build/reports/tests/1579781283948.1.html\nTimeout: 4 s.",
+      "statusDetails" : "Element should have css class 'input_invalid' {[data-test-id=phone]}\nElement: '<span class=\"input input_type_tel input_view_default input_size_m input_width_available input_has-label input_has-value input_theme_alfa-on-white phone-input phone-input_theme_alfa-on-white\" data-test-id=\"phone\">Мобильный телефон\nНа указанный номер моб. тел. будет отправлен смс-код для подтверждения заявки на карту. Проверьте, что номер ваш и введен корректно.</span>'\nScreenshot: file:/D:/QA/IdeaProjects/netology-aqa41/build/reports/tests/1579964274566.1.png\nPage source: file:/D:/QA/IdeaProjects/netology-aqa41/build/reports/tests/1579964274566.1.html\nTimeout: 4 s.",
       "time" : {
-        "start" : 1579781278795,
-        "stop" : 1579781284324,
-        "duration" : 5529
+        "start" : 1579964269481,
+        "stop" : 1579964275182,
+        "duration" : 5701
       }
     } ]
   },
@@ -48,12 +49,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e23957fe7fe1322d",
+      "uid" : "a2499f6bcc6599f7",
       "status" : "passed",
       "time" : {
-        "start" : 1579781285519,
-        "stop" : 1579781286499,
-        "duration" : 980
+        "start" : 1579964279935,
+        "stop" : 1579964280827,
+        "duration" : 892
       }
     } ]
   },
@@ -67,13 +68,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1ec9815ad3e8a222",
+      "uid" : "ebeea7263619e311",
       "status" : "failed",
-      "statusDetails" : "Element should be hidden {[data-test-id=success-notification]}\nElement: '<div class=\"notification notification_visible notification_status_ok notification_has-closer notification_stick-to_right notification_theme_alfa-on-white\" data-test-id=\"success-notification\">Успешно!\nВстреча успешно запланирована на 26.01.2020</div>'\nScreenshot: file:/D:/QA/IdeaProjects/netology-aqa41/build/reports/tests/1579781278352.0.png\nPage source: file:/D:/QA/IdeaProjects/netology-aqa41/build/reports/tests/1579781278352.0.html\nTimeout: 3 s.",
+      "statusDetails" : "Element should be hidden {[data-test-id=success-notification]}\nElement: '<div class=\"notification notification_visible notification_status_ok notification_has-closer notification_stick-to_right notification_theme_alfa-on-white\" data-test-id=\"success-notification\">Успешно!\nВстреча успешно запланирована на 28.01.2020</div>'\nScreenshot: file:/D:/QA/IdeaProjects/netology-aqa41/build/reports/tests/1579964268736.0.png\nPage source: file:/D:/QA/IdeaProjects/netology-aqa41/build/reports/tests/1579964268736.0.html\nTimeout: 3 s.",
       "time" : {
-        "start" : 1579781262554,
-        "stop" : 1579781278690,
-        "duration" : 16136
+        "start" : 1579964253628,
+        "stop" : 1579964269343,
+        "duration" : 15715
       }
     } ]
   }
